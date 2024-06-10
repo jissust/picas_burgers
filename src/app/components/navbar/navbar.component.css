@@ -1,0 +1,12 @@
+.navbar{
+    transition: background-color 0.5s ease;
+}
+.stateScroll{
+    background-color: #27244f;
+    transition: background-color 0.5s ease;
+    box-shadow: rgba(17, 17, 26, 1.1) 0 0px 13px;
+}
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
