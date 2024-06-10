@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-.section{
-    height: 100vh;
+.section-padding {
     padding: 60px 30px;
+}
+.section {
+    height: 100vh;
+}
+.section-height{
+    height: fit-content;
 }
