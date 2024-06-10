@@ -1,0 +1,10 @@
+.home{
+    background-color: grey;
+    position: relative;
+    height: 100vh;
+}
+@media (min-width: 768px) {
+    .home{
+        height: 100vh;
+    }
+}
