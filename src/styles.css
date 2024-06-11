@@ -16,10 +16,20 @@ body{
     background-color: var(--color-base) !important;
     color: var(--color-primary) !important;
     font-family: "Snippet", sans-serif !important;
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
+}
+@media (min-width:768px) {
+    body{
+        font-size: 1.3rem !important;
+    }
 }
 .section-padding {
-    padding: 60px 30px;
+    padding: 40px 0;
+}
+@media (min-width:768px) {
+    .section-padding{
+        padding: 60px 30px;
+    }
 }
 .section {
     height: 100vh;
@@ -29,8 +39,12 @@ body{
 }
 h1{
     font-family: "Rock Salt", cursive;
-    /*font-family: "Pacifico", cursive;*/
-    font-size: 3.5rem !important;
+    font-size: 2.5rem !important;
+}
+@media (min-width:768px) {
+    h1{
+        font-size: 3.5rem !important;
+    }
 }
 .btn_primary{
     background-color: transparent;

@@ -1,5 +1,11 @@
 .navbar{
     transition: background-color 0.5s ease;
+    background-color: var(--color-base);
+}
+@media (min-width:768px) {
+    .navbar{
+        background-color: transparent;
+    }
 }
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link.show{
@@ -10,7 +16,7 @@
     color:var(--color-primary);
 }
 .stateScroll{
-    background-color: #000;
+    background-color: var(--color-base);
     transition: background-color 0.5s ease;
     box-shadow: rgba(17, 17, 26, 1.1) 0 0px 13px;
 }
