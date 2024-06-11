@@ -2,6 +2,7 @@
     background-image: url(../../../assets/images/phrase/bg-phrase.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     position: relative;
 }
 .bg-phrase{
