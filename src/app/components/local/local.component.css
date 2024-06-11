@@ -1,5 +1,16 @@
 .local-item{
     width: 100%;
     height: 50vh;
-    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.local-item_1{
+    background-image: url(../../../assets/images/local/local_1.jpg);
+}
+.local-item_2{
+    background-image: url(../../../assets/images/local/local_2.jpg);
+}
+.local-item_3{
+    background-image: url(../../../assets/images/local/local_1.jpg);
 }

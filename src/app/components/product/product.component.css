@@ -3,5 +3,25 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+.product-item:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.product-item_1{
+    background-image: url(../../../assets/images/products/menu.webp);
+}
+.product-item_2{
+    background-image: url(../../../assets/images/products/bebidas.webp);
+}
+.product-item_3{
+    background-image: url(../../../assets/images/products/desayuno.webp);
+}
+.col-container{
+    overflow: hidden;
 }
