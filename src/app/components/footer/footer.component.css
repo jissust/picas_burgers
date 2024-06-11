@@ -1,4 +1,17 @@
 footer{
     min-height: 100px;
-    background-color: grey;
+    padding: 50px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+ul li a{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.footer_logo{
+    border-radius: 50%;
 }
